@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+.title {
+    color: orange;
+    padding: 0 8px;
+    text-transform: capitalize;
+    font-family: 'Cinzel', serif;
+}
+.title span {
+    color: blue;
+}
+
+.nav {
+    color: blue;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+}
+.nav ul li {
+    padding: 12px;
+    margin-right: 15px;
+}
+.nav a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    color: mediumblue;
+}
+.nav a:hover{
+    color: gold;
+}
+.nav a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: gray;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav a:hover::after{
+    width: 100%;
+    color: blueviolet;
+}
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+}
+
+.suppliers {
+    text-decoration: none;
+    color: black;
+}
+
+.home2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.home-description {
+    margin-left: 30px;
+    width: 40%;
+    margin-top: 220px;
+}
+
+.home-description h1 {
+    font-family: 'Prata', serif;
+}
+
+
+.home-description p {
+    margin-top: 30px;
+}
+
+.home-description .whats {
+    margin-top: 30px;
+    font-family: 'Amita', cursive;
+}
+
+.home-img {
+    width: 50%;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+.home-img img {
+    width: 100%;
+}
+
+.ampoll1 {
+    width: 3%;
+    position: fixed;
+    top: 100px;
+    display: none;
+}
+
+.ampoll2 {
+    width: 3%;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    display: none;
+}
+
+.hello {
+    display: flex;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.cutting-hair {
+    display: flex;
+    overflow: visible;
+}
+
+.cutting-hair p {
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.cutting-hair img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.calendar {
+    display: flex;
+}
+
+.calendar img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.calendar p {
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+.years{
+    text-align: center;
+    font-size: 2.7rem;
+}
+.years h6{
+    padding: 30px;
+}
+.short input{
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 5px;
+    width: 30%;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.short textarea{
+    padding: 15px;
+    width: 28%;
+    height: 22vh;
+    margin: 10px;
+    border: none;
+}
+.short button{
+    padding: 15px 25px;
+    margin: 15px 0;
+    width: 250px;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #fff;    
+    background-color: gray;
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+.short button:hover {
+  color: #22db9b;
+  background-color: #000;
+}
+
+#suppliers {
+    margin-top: 100px;
+}
+
+.imgs {
+    display: flex;
+}
+
+.revenue {
+    position: absolute;
+    left: 25%;
+    width: 10%;
+}
+
+.revenue img {
+    width: 100%;
+}
+
+.marketing {
+    width: 10%;
+    position: relative;
+    left: 50%;
+}
+
+.marketing img {
+    width: 100%;
+}
+
+.analyzing {
+    width: 10%;
+    position: relative;
+    top: 500px;
+    right: 90px;
+}
+
+.analyzing img {
+    width: 100%;
+}
+
+.customercare {
+    width: 10%;
+    position: relative;
+    top: 250px;
+    right: 70px;
+}
+
+.customercare img {
+    width: 100%;
+}
+
+.calendar-ing {
+    width: 10%;
+    position: relative;
+    top: 220px;
+    left: 330px;
+}
+
+.calendar-ing img {
+    width: 100%;
+}
+
+.barber-ing {
+    width: 10%;
+    position: relative;
+    top: 470px;
+    left: 650px;
+}
+
+.barber-ing img {
+    width: 100%;
+}
+
+.ksa{
+    position: relative;
+    text-align: center;
+    margin-top: 30rem;
+}
+.kaso{
+    text-align: center;
+    margin-top: 50px;
+}
+.kaso input{
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 5px;
+    width: 33%;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+.kaso button{
+    padding: 15px 25px;
+    margin: 15px 0;
+    width: 250px;
+    color: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #fff;    
+    background-color: gray;
+    cursor: pointer;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+.kaso button:hover {
+    color: #22db9b;
+    background-color: #000;
+  }
+  .dior{
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0; 
+}
+.go {
+    text-align: center;
+    font-size: x-large;
+}
+
+.jojo {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.jojo img {
+    width: 20%;
+}
+
+.gold{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.socal-media {
+    display: flex;
+    margin-top: 50px;
+}
+
+.twitter {
+    font-size: xxx-large;
+    margin-right: 10px;
+}
+
+.twitter a {
+    color: black;
+}
+
+.twitter-icon:hover {
+    color: #1DA1F2;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.twitter-icon:active {
+    color: #1DA1F2;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.facebook {
+    font-size: xxx-large;
+}
+
+.facebook a {
+    color: black;
+}
+
+.facebook-icon:active {
+    color: blue;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.facebook-icon:hover {
+    color: blue;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.whats-up {
+    font-size: xxx-large;
+    margin-left: 12px;
+}
+
+.whats-up a {
+    color: black;
+}
+
+.whats-up-icon:hover {
+    color: #4FCE5D;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.whats-up-icon:active {
+    color: #4FCE5D;
+    transform: translateY(-10px);
+    transition: all 150ms 150ms linear;
+    cursor: pointer;
+}
+
+.like {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.like-icon {
+    font-size: xxx-large;
+}
+
+.like-icon:active {  
+    color: blue;
+    transition: color 200ms linear;
+}
+
+.like-icons {
+    font-size: xxx-large;
+    color: blue;
+}
+.newyork{
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+@media all and (max-width: 500px) {
+    .nav ul li {
+        padding: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media all and (max-width: 428px) {
+    .nav ul li {
+        padding: 5px;
+        margin-right: 5px;
+        font-size: small;
+    }
+    .title h1 span {
+        font-size: medium;
+    }
+    .title h1 {
+        font-size: medium;
+    }
+}
+
+@media all and (max-width: 322px) {
+    .nav ul li {
+        padding: 5px;
+        margin-right: 5px;
+        font-size: x-small;
+    }
+}
+
+@media all and (max-width: 288px) {
+    .nav ul li {
+        padding: 2px;
+        margin-right: 5px;
+        font-size: x-small;
+    }
+}
+
+@media all and (max-width: 1145px) {
+    .home-img {
+        width: 40%;
+        border-radius: 5px;
+        position: absolute;
+        right: 0px;
+        top: 222px;
+    }
+    .home-img img {
+        width: 100%;
+    }
+    .home-description {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 563px) {
+    .home-img {
+        display: none
+    }
+    .hello p {
+        font-size: xx-small;
+    }
+    .cutting-hair img {
+        width: 40%;
+    }
+    .hello {
+        margin-left: 0px;
+        margin-top: 320px;
+    }
+    .calendar img {
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .home-description {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 352px) {
+    .home-description {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1090px) {
+    .barber-ing {
+        position: relative;
+        left: 500px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .barber-ing {
+        position: relative;
+        left: 450px;
+        top: 420px;
+    }
+    .calendar-ing {
+        position: relative;
+        left: 240px;
+    }
+    .analyzing {
+        position: relative;
+        right: 60px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .barber-ing {
+        position: relative;
+        left: 350px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .h1 {
+        font-size: x-large;
+        position: relative;
+        left: 160px;
+        top: 270px;
+    }
+    .revenue {
+        position: relative;
+        top: 50px;
+    }
+    .marketing {
+        position: relative;
+        top: 50px;
+        left: 150px;
+    }
+    .customercare {
+        position: relative;
+        top: 220px;
+    }
+    .analyzing {
+        position: relative;
+        top: 380px;
+        right: 65px;
+    }
+    .calendar-ing {
+        position: relative;
+        left: 60px;
+    }
+    .barber-ing {
+        position: relative;
+        left: 160px;
+        top: 380px;
+    }
+    .dior {
+        font-size: x-small;
+    }
+    .imgs p {
+        font-size: xx-small;
+    }
+    .ksa {
+        font-size: small;
+    }
+    .kaso input{
+        border-bottom: 1px solid #000;
+        margin: 10px 0;
+        padding: 10px 5px;
+        width: 60%;
+        text-transform: capitalize;
+        font-size: x-large;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .h1 {
+        font-size: x-large;
+        position: absolute;
+        left: 110px;
+        top: 350px;
+        display: none;
+    }
+    .revenue {
+        position: relative;
+        top: 50px;
+    }
+    .marketing {
+        position: relative;
+        top: 50px;
+        left: 150px;
+    }
+    .customercare {
+        position: relative;
+        top: 220px;
+        right: 60px;
+    }
+    .analyzing {
+        position: relative;
+        top: 380px;
+        right: 50px;
+    }
+    .calendar-ing {
+        position: relative;
+        right: 100px;
+    }
+    .barber-ing {
+        position: relative;
+        right: 510px;
+        top: 380px;
+    }
+    .dior {
+        font-size: x-small;
+    }
+    .imgs p {
+        font-size: xx-small;
+    }
+
+    .ksa {
+        font-size: small;
+    }
+    .go {
+        font-size: x-large;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .short input{
+        border-bottom: 1px solid #000;
+        margin: 10px 0;
+        padding: 10px 5px;
+        width: 60%;
+        text-transform: capitalize;
+        font-size: x-large;
+    }
+    .short textarea{
+        padding: 15px;
+        width: 70%;
+        height: 22vh;
+        margin: 10px;
+        border: none;
+    }
+}
