@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/satiserv/static/css/main.177dac73.css",
+    "main.js": "/satiserv/static/js/main.1799eb12.js",
+    "static/js/787.5fd6cb6d.chunk.js": "/satiserv/static/js/787.5fd6cb6d.chunk.js",
+    "static/media/links-s.webp": "/satiserv/static/media/links-s.afb8e5b94ff7014ba81c.webp",
+    "static/media/barber3.jpg": "/satiserv/static/media/barber3.5b023ff14f7db6858f75.jpg",
+    "static/media/barber4.jpg": "/satiserv/static/media/barber4.a79c890516bbab1fbc36.jpg",
+    "static/media/marketing10.png": "/satiserv/static/media/marketing10.67eb05da0cbc46512a86.png",
+    "static/media/analyzing2.jpg": "/satiserv/static/media/analyzing2.5bbefabe84d79913be7f.jpg",
+    "static/media/barber7.jpg": "/satiserv/static/media/barber7.67f2c833c7c97a234a5f.jpg",
+    "static/media/revenue.jpg": "/satiserv/static/media/revenue.bd38ccc441b366e667c4.jpg",
+    "static/media/calendar3.png": "/satiserv/static/media/calendar3.8d82bc79c34e096c4067.png",
+    "static/media/customercare.jpg": "/satiserv/static/media/customercare.62681252affd4eed2371.jpg",
+    "static/media/calendar5.webp": "/satiserv/static/media/calendar5.6f7d62de1ee705533e3d.webp",
+    "index.html": "/satiserv/index.html",
+    "main.177dac73.css.map": "/satiserv/static/css/main.177dac73.css.map",
+    "main.1799eb12.js.map": "/satiserv/static/js/main.1799eb12.js.map",
+    "787.5fd6cb6d.chunk.js.map": "/satiserv/static/js/787.5fd6cb6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.177dac73.css",
+    "static/js/main.1799eb12.js"
+  ]
+}
